@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+header{
+	width: 100%; height: 70px; background-color: white
+}
+.menu ul{
+	margin: 0; padding: 0; list-style: none; display: flex
+}
+.menu ul li a{
+	padding: 10px 25px; text-decoration: none; color: #666666; border-radius: 12px
+}
+.menu ul li a:hover{
+	background-color: #EF9400; color: #051DAB
+}
+.menu{
+	padding: 24px
+}
+.logo{
+	padding-top: 22px
+}
+.icon{
+	width:12%; padding-top: 22px;display: flex;justify-content: space-around
+}
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:yellow;
+      text-decoration: none; }
+main{
+	width: 100%;min-height: 500px
+}
+.gach-chan{
+	border-bottom: 2px solid darkred
+}
+.vien{
+	border: 1px solid darkred;padding: 12px;border-radius: 2px;position: relative;overflow: hidden
+}
+.text-do{
+	color: darkred
+}
+.icon-buy{
+	width: 80%;height: 40px;position: absolute;left: 10%;top: -15%;display: flex;justify-content: space-around;transition: all 1s
+}
+.icon-buy a{
+	width: 40px;height: 40px;background-color: darkred;border-radius: 50%;display: flex;justify-content: center;align-items: center;text-decoration: none;color: white
+}
+.icon-buy a:hover{
+	background: white;color: darkred
+}
+.vien:hover .icon-buy{
+	top: 48%
+}
+#feature{
+	width: 100%;min-height: 600px;background-image: url("../images/bg2.png");background-repeat: no-repeat;background-size: cover;background-position: bottom center
+}
+.pt-30{
+	padding-top: 60px
+}
+.vien-trang{
+	width:100%;border:2px solid white;text-align: center;padding: 10px 20px
+}
+.vien-trang a{
+	text-decoration: none;color:darkred
+}
+.vien-trang a:hover{
+	color:white
+}
+.container2{
+	width: 60%;margin:auto
+}
+#contact{
+	width: 100%;min-height:320px;background-image:url("../images/Banner2.png");background-repeat: no-repeat;background-size: cover;background-position: center center
+}
+.shadow{
+	border: 1px solid gray; width:100%;min-height:300px;box-shadow: 5px 5px 5px gray;padding: 30px
+}
+.form-control{
+	padding: 8px;margin-bottom: 10px;width: 100%
+}
+.w-30{
+	width: 30%;min-height: 200px;padding: 15px
+}
+.w-70{
+	width: 70%;min-height: 200px;padding: 15px
+}
+.text-xanh{
+	color: #494949
+}
+.vien{
+	border: 1px solid gray;min-height: 200px;border-radius: 8px;padding: 10px;margin-bottom: 15px
+}
